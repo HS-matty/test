@@ -25,5 +25,7 @@ $obj = new another_class();
 $obj->echo('test');
 
 // is it a new branch or what??
+// guess that yes ..
+
 
 ?>
