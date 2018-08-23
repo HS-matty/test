@@ -24,4 +24,6 @@ class another_class extends some_class{
 $obj = new another_class();
 $obj->echo('test');
 
+// is it a new branch or what??
+
 ?>
