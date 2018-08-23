@@ -4,4 +4,6 @@
 echo "test";
 
 //another comment 
+// comments, comments
+
 ?>
