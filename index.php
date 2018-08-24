@@ -10,22 +10,36 @@ echo "test";
 
 class some_class{
 
-	public function echo($message){
+	public $some_var;
+
+	public function __construct(){
+		$this->some_var = 'test_value';
+	}
+	public function echo($message = null){
+		if(!$message) $message = $this->some_var;
 		echo $message;
 	}
+
 
 }
 
 
 class another_class extends some_class{
+	
+	
 
 }
 
 $obj = new another_class();
 $obj->echo('test');
+$obj->echo();
 
 // is it a new branch or what??
 // guess that yes ..
 // some more changes
 // ?
+//friday?
+
+
+
 ?>
