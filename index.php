@@ -45,6 +45,7 @@ $obj->_echo();
 // ?
 //friday?
 //monday ? :D
+//!
 
 
 ?>
