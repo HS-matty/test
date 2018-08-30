@@ -38,7 +38,7 @@ class another_class extends some_class{
 $obj = new another_class();
 $obj->_echo('test');
 $obj->_echo();
-
+exit(0);
 // is it a new branch or what??
 // guess that yes ..
 // some more changes
